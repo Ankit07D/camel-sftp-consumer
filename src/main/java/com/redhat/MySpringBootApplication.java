@@ -16,7 +16,7 @@ public class MySpringBootApplication {
 	@Bean
 	JmsConnectionFactory jmsConnectionFactory() {
 		JmsConnectionFactory factory = new JmsConnectionFactory("admin", "admin",
-				"amqps://amq-broker-amqp-0-svc-rte-amq-broker.apps.cluster-fbc5v.fbc5v.sandbox867.opentlc.com:443?transport.trustStoreLocation=client.ts&transport.trustStorePassword=password");
+				"amqps://amq-broker-amqp-0-svc-rte-amq-broker.apps.cluster-fbc5v.fbc5v.sandbox867.opentlc.com:443?transport.trustStoreLocation=/home/client.ts&transport.trustStorePassword=password");
 		return factory;
 	}
 }
