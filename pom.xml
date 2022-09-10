@@ -91,6 +91,15 @@
 			<artifactId>camel-test-spring-junit5</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/io.hawt/hawtio-springboot -->
+<dependency>
+    <groupId>io.hawt</groupId>
+    <artifactId>hawtio-springboot</artifactId>
+    <version>2.15.1</version>
+</dependency>
+
+		
 	</dependencies>
 
 	<build>
