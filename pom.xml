@@ -79,7 +79,22 @@
 			<groupId>org.apache.camel.springboot</groupId>
 			<artifactId>camel-amqp-starter</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>org.apache.camel.springboot</groupId>
+			<artifactId>camel-json-validator-starter</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.camel.springboot</groupId>
+			<artifactId>camel-jackson-starter</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.camel.springboot</groupId>
+			<artifactId>camel-jackson-starter</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.camel.springboot</groupId>
+			<artifactId>camel-jacksonxml-starter</artifactId>
+		</dependency>
 		<!-- Test -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -91,15 +106,6 @@
 			<artifactId>camel-test-spring-junit5</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
-		<!-- https://mvnrepository.com/artifact/io.hawt/hawtio-springboot -->
-<dependency>
-    <groupId>io.hawt</groupId>
-    <artifactId>hawtio-springboot</artifactId>
-    <version>2.15.1</version>
-</dependency>
-
-		
 	</dependencies>
 
 	<build>
